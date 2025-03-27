@@ -1,0 +1,50 @@
+.top-section {
+    background-image: url("../images/Scales.jpeg");
+    background-size: cover;
+    font-size: 50px;
+    background-position: center;
+    text-align: center;
+    color: khaki;
+    font-family: Helvetica;
+    font-weight: bold;
+    height: 120px;
+}
+
+.Brushes {
+     background-color: mediumspringgreen;
+     font-family: Helvetica;
+     font-weight: bold;
+     margin-bottom: 50px;
+     padding: 10px;
+     text-align: left;
+     margin-top: 50px;
+     color: white;
+     font-size: 32px;
+
+
+}
+
+.Frames {
+    background-color: lightcoral;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+    margin-bottom: 50px;
+
+}
+
+.Paint {
+    background-color: skyblue;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: white;
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+.Highlight {
+    color: blue;
+    font-weight: bold;
+    font-family: Helvetica;
+}
