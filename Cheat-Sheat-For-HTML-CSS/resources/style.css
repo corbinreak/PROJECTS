@@ -1,0 +1,42 @@
+html {
+    font-family: monospace;
+   background-color: black;
+   color: white;
+}
+
+
+.top-section {
+    text-align: center;;
+    margin-bottom: auto;
+}
+
+.table-body {
+    margin-top: auto;
+    font-size: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    /* Set the width of the table to 50% of its container */
+    margin: 0px auto;
+    /* Center the table horizontally */
+    font-size: 35px;
+
+
+
+}
+th, td {
+    border: 1px solid rgb(32,194,14);
+    padding: 8px;
+    text-align: left;
+}
+
+
+h2 {
+    text-decoration: underline;
+    text-decoration-color: rgb(32,194,14);
+    text-decoration-thickness: 2px;
+}    
+
+    
