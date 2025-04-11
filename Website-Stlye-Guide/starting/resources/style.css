@@ -1,0 +1,146 @@
+/* Global background color for the entire page */
+html { 
+    background-color: lightgrey;
+}
+
+/* Breadcrumb navigation style */
+.breadcrumb {
+    border: none; /* Removes any border */
+    margin-bottom: 75px; /* Adds space below the breadcrumb */
+}
+
+/* Style for individual list items within the breadcrumb */
+.breadcrumb li {
+    display: inline-block; /* Displays breadcrumb items in a horizontal line */
+    margin-top: 10px; /* Adds space above each breadcrumb item */
+    position: relative; /* Allows for positioning adjustments */
+}
+
+/* Style for links in the breadcrumb */
+.breadcrumb a {
+    text-decoration: none; /* Removes underline from links */
+    color: black; /* Sets the color of the links to black */
+    font-size: 20px; /* Sets the font size of the links */
+    padding: 0 10px; /* Adds padding inside the links for spacing */
+    position: relative; /* Allows for positioning adjustments */
+    top: 0;
+    left: 0;
+    width: 100%; /* Makes the link span the full width of the parent container */
+}
+
+/* Hover effect for links in the breadcrumb */
+.breadcrumb a:hover {
+    color: rgb(32,194,14); /* Changes link color on hover */
+    text-decoration: underline; /* Adds underline on hover */
+}
+
+/* Style for the top section containing headings */
+.top-section {
+    font-weight: normal; /* Makes text weight normal */
+    font-size: 12px; /* Sets the font size to 12px */
+    border: 2px solid black; /* Adds a black border around the section */
+    margin-bottom: 50px; /* Adds space below the section */
+    margin-top: 50px; /* Adds space above the section */
+}
+
+/* Font style for elements with class "font-title" or "color-title" */
+.font-title, .color-title {
+    text-decoration: italic; /* Makes the text italic */
+    text-shadow: 3px 3px 4px gray; /* Adds a gray shadow behind the text */
+    font-size: 50px; /* Sets the font size to 50px */
+}
+
+/* Style for unordered lists (ul) */
+ul {
+    text-shadow: none; /* Removes any text shadow from list items */
+    font-size: 25px; /* Sets the font size of the list items */
+}
+
+/* Font families for custom fonts */
+.font1 {
+    font-size: 25px; /* Sets font size to 50px */
+    font-family: "Bungee Tint", sans-serif; /* Applies the "Bungee Tint" font */
+}
+
+.font2 {
+    font-size: 25px; /* Sets font size to 50px */
+    font-family: "Winky Sans", sans-serif; /* Applies the "Winky Sans" font */
+}
+
+.font3 {
+    font-size: 25px; /* Sets font size to 50px */
+    font-family: "Boldonse", system-ui; /* Applies the "Boldonse" font */
+}
+
+/* Section style for the color section */
+.color-section {
+    border: 2px solid black; /* Adds a black border around the section */
+    margin-bottom: 50px; /* Adds space below the section */
+}
+
+/* Specific colors for different color classes */
+.color1 {
+    color: #ff5733; /* Sets the text color to a red-orange */
+}
+
+.color2 {
+    color: #33ff57; /* Sets the text color to a greenish color */
+}
+
+.color3 {
+    color: #3357ff; /* Sets the text color to a blue color */
+}
+
+/* Background color and text color for specific text classes */
+.text-color1 {
+    background-color: #ff5733; /* Sets background to red-orange */
+    color: black; /* Sets text color to black */
+}
+
+.text-color2 {
+    background-color: #33ff57; /* Sets background to greenish */
+    color: black; /* Sets text color to black */
+}
+
+.text-color3 {
+    background-color: #3357ff; /* Sets background to blue */
+    color: black; /* Sets text color to black */
+}
+
+/* Style for <h1> tags */
+.h1-style {
+    font-weight: 700; /* Makes the font bold */
+    font-size: 26px; /* Sets font size to 26px */
+    font-family: "Bungee Tint", sans-serif; /* Applies the "Bungee Tint" font */
+}
+
+/* Style for <h2> tags */
+.h2-style {
+    font-weight: 500; /* Sets font weight to medium */
+    font-size: 18px; /* Sets font size to 18px */
+    font-family: "Winky Sans", sans-serif; /* Applies the "Winky Sans" font */
+}
+
+/* Style for <p> (paragraph) tags */
+.p-style {
+    font-weight: 400; /* Sets font weight to normal */
+    font-size: 14px; /* Sets font size to 14px */
+    font-family: "Boldonse", system-ui; /* Applies the "Boldonse" font */
+}
+
+/* Section style for the font style section */
+.font-style-section {
+    border: 2px solid black; /* Adds a black border around the section */
+    margin-bottom: 50px; /* Adds space below the section */
+}
+
+/* Footer section style */
+.footer-section {
+    border: 2px solid black; /* Adds a black border around the footer */
+    background-color: black; /* Sets the background to black */
+    color: white; /* Sets the text color to white */
+    display: flex; /* Uses flexbox layout */
+    justify-content: center; /* Centers the footer content horizontally */
+    align-items: center; /* Centers the footer content vertically */
+    height: 100px; /* Sets the height of the footer */
+}

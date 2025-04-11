@@ -1,0 +1,70 @@
+/* General styles for the whole HTML document */
+html {
+    font-family: monospace; /* Use monospace font for the whole document */
+    background-color: black; /* Set background color to black */
+    color: white; /* Set text color to white for contrast */
+}
+
+/* Styling for the top section */
+.top-section {
+    text-align: center; /* Center the content horizontally */
+    margin-bottom: 20px; /* Add space below the section */
+}
+
+/* Styling for the table body */
+.table-body {
+    margin-top: 20px; /* Add space above the table */
+    font-size: 20px; /* Set font size for table body */
+}
+
+/* Styling for the table */
+table {
+    border-collapse: collapse; /* Collapse borders into a single border */
+    width: 50%; /* Set the table width to 50% of its container */
+    margin: 0px auto; /* Center the table horizontally */
+    font-size: 35px; /* Set the font size for table text */
+}
+
+/* Styling for table headers and data cells */
+th, td {
+    border: 1px solid rgb(32, 194, 14); /* Green border for table cells */
+    padding: 8px; /* Add padding inside table cells */
+    text-align: left; /* Align text to the left inside cells */
+}
+
+/* Styling for <h2> elements (subheadings) */
+h2 {
+    text-decoration: underline; /* Underline the <h2> text */
+    text-decoration-color: rgb(32, 194, 14); /* Set underline color to green */
+    text-decoration-thickness: 2px; /* Set thickness of underline */
+}
+
+/* Styling for breadcrumb navigation */
+.breadcrumb {
+    border: none; /* Remove default border from breadcrumb */
+    margin-bottom: 75px; /* Add space below the breadcrumb */
+}
+
+/* Styling for breadcrumb list items */
+.breadcrumb li {
+    display: inline-block; /* Display breadcrumb items in a horizontal line */
+    margin-top: 10px; /* Add top margin to each breadcrumb item */
+    position: relative; /* Allow positioning adjustments if needed */
+}
+
+/* Styling for breadcrumb links */
+.breadcrumb a {
+    text-decoration: none; /* Remove underline from links */
+    color: rgb(32, 194, 14); /* Set link color to green */
+    font-size: 20px; /* Set font size for breadcrumb links */
+    padding: 0 10px; /* Add horizontal padding around the links */
+    position: relative; /* Allow positioning adjustments if needed */
+    top: 0; /* No vertical shift */
+    left: 0; /* No horizontal shift */
+}
+
+/* Styling for breadcrumb links on hover */
+.breadcrumb a:hover {
+    color: rgb(32, 194, 14); /* Keep link color green on hover */
+    text-decoration: underline; /* Add underline when hovering over link */
+}
